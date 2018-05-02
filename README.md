@@ -84,11 +84,11 @@ Just for internal purposes
 ###### Info:
 К юнит-тестам:
 - Library "Pragmatists" (библиотека упрощает написание юнит-тестов, если имеется много вариантов входных параметров) - https://github.com/Pragmatists/junitparams/wiki/Quickstart
-- вот чувак пишет код через тест - https://www.youtube.com/watch?v=K-eA9ZIkJBg&list=PLUA2W_Brp86uVqJVhLQRdhnSsmmWpnyhe&t=55m14s
 - подключить библиотеку AssertJ:
   - описание - https://joel-costigliola.github.io/assertj/
   - мавен - https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html
+- (для быстрого старта) пример TDD - https://www.youtube.com/watch?v=K-eA9ZIkJBg&list=PLUA2W_Brp86uVqJVhLQRdhnSsmmWpnyhe&t=55m14s
 
 К интеграционным-тестам:
-- Spring Testing docs (v5) - https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html
-- Туториал Integration Testing in Spring - http://www.baeldung.com/integration-testing-in-spring
+- Spring Testing docs - https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html
+- Туториал "Integration Testing in Spring" - http://www.baeldung.com/integration-testing-in-spring
