@@ -41,7 +41,7 @@ Just for internal purposes
 - наличие "живой документации" того, как должен работать класс/код (если понятно написан);
 - легче и приятнее писать. Т.к. в случае отсутствия тестов приходится анализировать код и искать/восстанавливать спецификацию, по которой он был написан;
 
-Примеры:
+###### Примеры:
 * Для тестирования рокировки руками в сетевых шахматах пришлось бы запустить сервер и два клиента. Затем залогиниться двумя игроками, создать между ними игру, выдвинуть фигуры вперёд и далее только тестировать рокировку. Вероятней всего, воспроизводить потребуется несколько раз (разные кейзы рокировки).
 
 * Или у меня имеется websocket-сервер. Если игрок был не активен более 15 минут, то сервер должен делать дисконнект. У меня написан интеграционный тест, в котором "замокано" время ожидания с 15 минут до миллисекунд. В связи с чем тест проходит быстро.
@@ -81,14 +81,14 @@ Just for internal purposes
 Ну и как вывод: необходимость писать dev-тесты будет подталкивать делать лучше пункт 1 - дизайн классов.
 
 
-___ Info:
-Unit-tests docs:
+###### Info:
+К юнит-тестам:
 - Library "Pragmatists" (библиотека упрощает написание юнит-тестов, если имеется много вариантов входных параметров) - https://github.com/Pragmatists/junitparams/wiki/Quickstart
 - вот чувак пишет код через тест - https://www.youtube.com/watch?v=K-eA9ZIkJBg&list=PLUA2W_Brp86uVqJVhLQRdhnSsmmWpnyhe&t=55m14s
 - подключить библиотеку AssertJ:
   - описание - https://joel-costigliola.github.io/assertj/
   - мавен - https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html
 
-Integration-tests docs:
+К интеграционным-тестам:
 - Spring Testing docs (v5) - https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html
 - Туториал Integration Testing in Spring - http://www.baeldung.com/integration-testing-in-spring
