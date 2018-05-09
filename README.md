@@ -50,6 +50,7 @@ Just for internal purposes
 
 С интеграционными-тестами сложнее:
     - Туториал "Integration Testing in Spring" - http://www.baeldung.com/integration-testing-in-spring
+    - Туториал для Spring Boot тестов можно поискать тут - https://spring.io/guides
     
 
 ##### 2.3. Плюсы dev-тестов (юнит-тесты и интеграционные)
@@ -106,6 +107,10 @@ Just for internal purposes
 
 
 ##### 2.5 Рекомендуемые материалы и доки
+
+Рекомендую следующий 2 видео:
+  - Hexlet - "Webinar #5: Тестирование и TDD" - https://www.youtube.com/watch?v=DqOnfQ4Ad5s
+  - Николай Алименков "Сага о том, как Java-разработчики должны тестировать свои приложения" - https://www.youtube.com/watch?v=K-eA9ZIkJBg
 
 ###### Info:
 К юнит-тестам:
