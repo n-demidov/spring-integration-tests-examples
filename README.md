@@ -119,7 +119,7 @@ Just for internal purposes
 - Библиотека Pragmatists (библиотека упрощает написание юнит-тестов, если имеется много вариантов входных параметров) - https://github.com/Pragmatists/junitparams/wiki/Quickstart
 - Библиотеку AssertJ:
   - описание - https://joel-costigliola.github.io/assertj/
-  - мавен - https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html
+  - подключить в мавен - https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html
 
 К интеграционным-тестам:
 - Туториал "Integration Testing in Spring" - http://www.baeldung.com/integration-testing-in-spring
