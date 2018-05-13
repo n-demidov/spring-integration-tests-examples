@@ -106,6 +106,14 @@ Just for internal purposes
 
 ##### 2.5 Примеры
 
+Основной пример для этой статьи:
+
+Смотрите классы: https://github.com/n-demidov/spring-integration-tests-examples/blob/master/src/test/java/com/example/demo/integrationtests/WhenSyncNotification.java
+
+и
+
+https://github.com/n-demidov/spring-integration-tests-examples/blob/master/src/test/java/com/example/demo/integrationtests/WhenAsyncNotification.java
+
 * Для тестирования рокировки руками в сетевых шахматах пришлось бы запустить сервер и два клиента. Затем залогиниться двумя игроками, создать между ними игру, выдвинуть фигуры вперёд и далее только тестировать рокировку. Вероятней всего, воспроизводить потребуется несколько раз (разные кейзы рокировки).
 
 <details>
