@@ -106,7 +106,7 @@ Just for internal purposes
 
 ##### 2.5 Примеры
 
-Основной пример для этой статьи:
+Основной пример для этой статьи (тестирование REST-контроллеров, примеры не дописаны):
 
 Смотрите классы: https://github.com/n-demidov/spring-integration-tests-examples/blob/master/src/test/java/com/example/demo/integrationtests/WhenSyncNotification.java
 
